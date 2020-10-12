@@ -3,7 +3,8 @@ def roll_call_dwarves# code an argument here
 end 
 
 def square_array(array)
-  array.map{|nums| nums * nums}
+  array.map do |elements|
+    elements * elements 
   end 
 end
 
