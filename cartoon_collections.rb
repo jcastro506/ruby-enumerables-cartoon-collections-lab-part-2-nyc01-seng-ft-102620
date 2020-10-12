@@ -3,8 +3,8 @@ def roll_call_dwarves# code an argument here
 end 
 
 def square_array(array)
-  array.map{|nums| nums **}
-end 
+  array.map{|nums| nums * nums}
+  end 
 end
 
 def summon_captain_planet# code an argument here
