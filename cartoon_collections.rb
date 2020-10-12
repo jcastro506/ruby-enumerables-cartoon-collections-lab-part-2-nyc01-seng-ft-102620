@@ -12,7 +12,8 @@ def summon_captain_planet
 end 
 
 def summon_captain_planet(planeteer_calls)
-  
+  planeteer_calls.map do |words|
+    words.to_cap
 end
 
 def long_planeteer_calls# code an argument here
